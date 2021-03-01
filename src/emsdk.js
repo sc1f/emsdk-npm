@@ -33,4 +33,5 @@ function emsdk(args) {
 }
 
 const args = process.argv.slice(2);
-emsdk(['--embedded'].concat(args));
+// emsdk(['--embedded'].concat(args));
+emsdk(args);
